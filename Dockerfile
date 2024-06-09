@@ -1,6 +1,6 @@
 FROM golang:latest
 
-RUN go install github.com/ampproject/amppackager/cmd/transform
+RUN go install github.com/ampproject/amppackager/cmd/transform@latest
 
 COPY entrypoint.sh /entrypoint.sh
 
